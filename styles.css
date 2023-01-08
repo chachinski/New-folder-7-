@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&family=Work+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 36px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: 90px;
+}
+a{
+    text-decoration: none;
+    color: #555555;
+    font-family: poppins;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+h1{
+    margin-left: 90px;
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #555555;
+    cursor: pointer;
+}
+.menu li{
+    padding: 30px;
+}
+.rightS ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+.rightS li{
+    padding: 15px;
+}
+.signUp{
+    width: 132px;
+    height: 48px;
+    background-color: #4A72FF;
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    position: relative;
+    right: 30px;
+}
+.signUp:hover{
+    background-color: #555151;
+    transition: 0.5s ease-in-out;
+}
+.firstImg{
+    display: flex;
+    justify-content: center;
+}
+.mainImg{
+    width: 1200px;
+    height: 1008px;
+}
+.mainP{
+    display: flex;
+}
+.firstP{
+    display: flex;
+    justify-content: center;
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 56px;
+    width: 50%;
+    color: #373636;
+}
+.secondP{
+    font-family: work sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 40px;
+    color: #555151;
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.secondPage{
+    height: 743px;
+    background-color: #0C1741;
+    margin-top: -50px;
+}
+.secondPage p{
+    position: relative;
+    top: 100px;
+    color: #ffffff;
+    padding: 10px;
+}
+.secondPageFirstP{
+    font-family: poppins;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    margin-left: 60px;
+}
+.secondPageSecondP{
+    font-family: work sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 60px;
+}
+.transparent{
+    margin-left: 80px;
+    width: 343px;
+    height: 206px;
+}
+.transparentImg{
+    background-color: #4A72FF;
+    padding: 15px;
+    border-radius: 50%;
+    position: relative;
+    top: 120px;
+}
+.transparentP{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: -10px;
+    margin-top: 30px;
+}
+.priceP{
+    font-family: work sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: -10px;
+    margin-top: 10px;
+}
